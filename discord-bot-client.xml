@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>discord-bot-client</Name>
+  <Repository>roryisnotacabbage/discord-bot-client</Repository>
+  <Registry>https://hub.docker.com/repository/docker/roryisnotacabbage/discord-bot-client</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/93632-discord-bot-client-container-support/</Support>
+  <Project>https://github.com/Flam3rboy/discord-bot-client/</Project>
+  <Overview>Container for the discord bot client to be self-hosted&#xD;
+Requires HTTPS</Overview>
+  <Category>Tools: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://github.com/limetech/docker-templates/limetech/raw/master/lang-en_US.xml</TemplateURL>
+  <Icon>https://discordemoji.com/assets/emoji/9311_BOT.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1592052403</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Container for the discord bot client to be self-hosted&#xD;
+Requires HTTPS</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3030</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="Web ui" Target="3000" Default="3000" Mode="tcp" Description="Port for the UI" Type="Port" Display="always" Required="true" Mask="false">3030</Config>
+</Container>
