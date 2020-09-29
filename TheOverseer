@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TheOverseer</Name>
+  <Repository>roryisnotacabbage/discord-bot</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Discord manager for the Bus Stop Toy Shop&#xD;
+Dice roller for all</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://lh3.googleusercontent.com/Rb9Sv3k5sDVflR0HuQr-pY56eDUA6sBLwaKOgWhEbUqkCfM42UK5oaMaPK7C4vgNjg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1601350389</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Discord manager for the Bus Stop Toy Shop&#xD;
+Dice roller for all</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/discord-bot</HostDir>
+      <ContainerDir>/bot/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>Njg5NjExNTk3NjI2NDc0NTI5.XnFdvw.LF1DtODRiXwGLFhdKBryUoHcR3U</Value>
+      <Name>TOKEN_VAL</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Bot Token" Target="TOKEN_VAL" Default="" Mode="" Description="Container Variable: TOKEN_VAL" Type="Variable" Display="always" Required="true" Mask="true">Njg5NjExNTk3NjI2NDc0NTI5.XnFdvw.LF1DtODRiXwGLFhdKBryUoHcR3U</Config>
+  <Config Name="Config" Target="/bot/config" Default="/mnt/user/appdata/discord-bot" Mode="rw" Description="Container Path: /bot/config" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/discord-bot</Config>
+</Container>
